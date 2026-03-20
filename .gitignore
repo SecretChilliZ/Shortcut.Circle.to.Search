@@ -13,8 +13,3 @@
 .externalNativeBuild
 .cxx
 local.properties
-dump.txt
-dump2.txt
-adb_test.gradle
-shizuku_install.gradle
-*.apk
