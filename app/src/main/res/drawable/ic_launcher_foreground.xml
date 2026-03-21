@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 1. Soft Outer Drop Shadow -->
+    <path
+        android:fillColor="#40000000"
+        android:pathData="M 54 26 A 40 40 0 1 0 54 106 A 40 40 0 1 0 54 26 Z" />
+
+    <!-- 2. Dark Green Base (The housing ring) -->
+    <path
+        android:fillColor="#00661D"
+        android:pathData="M 54 14 A 40 40 0 1 0 54 94 A 40 40 0 1 0 54 14 Z" />
+
+    <!-- 3. Base Inner Bevel Highlight (Catches light at the top of the housing) -->
+    <path
+        android:fillColor="#00E639"
+        android:pathData="M 54 14 A 40 40 0 0 1 90 36 Q 54 18 18 36 A 40 40 0 0 1 54 14 Z" />
+
+    <!-- 4. Base Inner Shadow (Bottom of the housing ring) -->
+    <path
+        android:fillColor="#00330E"
+        android:pathData="M 54 94 A 40 40 0 0 1 18 72 Q 54 90 90 72 A 40 40 0 0 1 54 94 Z" />
+
+    <!-- 5. Very Dark Recess/Gap (Separates the button from the housing) -->
+    <path
+        android:fillColor="#050A07"
+        android:pathData="M 54 20 A 34 34 0 1 0 54 88 A 34 34 0 1 0 54 20 Z" />
+
+    <!-- 6. Button Shadow (Cast by the button onto the bottom of the recess) -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M 54 24 A 32 32 0 1 0 54 88 A 32 32 0 1 0 54 24 Z" />
+
+    <!-- 7. Main Neon Green Button -->
+    <path
+        android:fillColor="#00FF41"
+        android:pathData="M 54 20 A 32 32 0 1 0 54 84 A 32 32 0 1 0 54 20 Z" />
+
+    <!-- 8. Button Top Glossy Highlight (Simulates a curved, shiny surface) -->
+    <path
+        android:fillColor="#66FFFFFF"
+        android:pathData="M 54 22 A 28 28 0 0 1 79 38 Q 54 26 29 38 A 28 28 0 0 1 54 22 Z" />
+
+    <!-- 9. Button Bottom Ambient Shadow (Gives the button itself spherical volume) -->
+    <path
+        android:fillColor="#00B32D"
+        android:pathData="M 54 82 A 30 30 0 0 1 26 64 Q 54 80 82 64 A 30 30 0 0 1 54 82 Z" />
+
+</vector>
