@@ -22,5 +22,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Stimulant"
+rootProject.name = "HardwareMacro"
 include(":app")
+ 
