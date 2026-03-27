@@ -59,14 +59,14 @@ This project was developed through a high-intensity, collaborative engineering s
 *
 *   **ChilliZ:**: Idk why its lying here, i tried to make it matrix themed from the very start, terminal/cmd/pwsh just looks great with a black background, and greeen is half of our colour recognising rods in our retina, so just biologically excellent use of both colour differential and illumination/contrast differential. This was a nice explanation: :https://old-ib.bioninja.com.au/options/option-a-neurobiology-and/a3-perception-of-stimuli/photoreception.html. Also Gemini sucked at making the image, I asked it if I can put a .ico or .svg and it said no and that it had to make it itself. ???
 *
-*   **Gemini’s Solution:** Hand-coded a complex **3D Shaded Vector Drawable** for the app icon and engineered a high-density (45-column) **Matrix "Code Rainfall"** background using an infinite animation loop in Jetpack Compose.
+*   **Gemini’s Solution:** Hand-coded a complex **3D Shaded Vector Drawable** for the app icon and engineered a high-density (45-column)             **Matrix "Code Rainfall"** background using an infinite animation loop in Jetpack Compose.
 *
 **Hour 8: Security & Guardrails**
 *   **The Challenge:** ~Bypassing Android 13 notification blocks and protecting user privacy.~
 *
 *    **ChilliZ:**: This is what I was talking about, there are so many security checks to pass but not only that, even if your app is not going to use those permissions, there will always be some fundamental qualifying layer of bullshit to overcome to then work without dysfunction. What ever happened to App open, access shizuku, easy accep, minimise shizuku, "yay I have control over my own phone that still has a shit tonne of inbuilt software that works exactly how some trojan might, the whole Meta intra-app architecture is a security risk just waiting to happen. So on a so forth, blah blah, social commentary.
 *
-*   **Gemini’s Solution:** ~Integrated `POST_NOTIFICATIONS` logic and proactively updated the `.gitignore` to shield sensitive phone-specific debug data before the project’s public release.~
+*   **Gemini’s Solution:** Integrated `POST_NOTIFICATIONS` logic and proactively updated the `.gitignore` to shield sensitive phone-specific debug data before the project’s public release.
 *
 **Hour 9: Final Triage & GitHub Deployment**
 *   **The Challenge:** ~Resolving an "Invalid APK" error and a Version Control mishap during the final upload.~
