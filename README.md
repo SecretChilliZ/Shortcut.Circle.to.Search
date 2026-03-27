@@ -47,31 +47,31 @@ This project was developed through a high-intensity, collaborative engineering s
 *   **The Solution:** Gemini engineered the **"Ghost Overlay"**—a 200ms delay combined with `moveTaskToBack(true)`. This successfully tricked the Samsung Window Manager into maintaining app focus while the macro fired invisibly.
 
 **Hour 6: Evolution of Intent**
-*   **The Challenge:** Increasing macro reliability beyond simple shell commands
+*   **The Challenge:** ~Increasing macro reliability beyond simple shell commands~
 .
 *   **ChilliZ:** This did shit all., even if you try to elicit the exact code out: HOME_BUTTON_LONGPRESS for the function. Who asked google to program that search bar when you press home for a long time, isnt that behaviour either denoting a change of topic/app or you have to go work because you have been procrastinating all day. Why is this natural bheavioural function of a home buttong being given a function that represents inquiry, interest, discovery and investigation. I suppose the macro was prohbably free and not being used. Not everything has to make sense.
 
 *   **Gemini’s Solution:** Replaced raw shell execution with the **Official Android Global Assist Action** (`performGlobalAction(16)`), transforming the app into a professional system utility.
 
 **Hour 7: Aesthetic Engineering**
-*   **The Challenge:** Elevating the UI from a basic terminal to an immersive experience.
+*   **The Challenge:** ~Elevating the UI from a basic terminal to an immersive experience.~
 
 *   **ChilliZ:**: Idk why its lying here, i tried to make it matrix themed from the very start, terminal/cmd/pwsh just looks great with a black background, and greeen is half of our colour recognising rods in our retina, so just biologically excellent use of both colour differential and illumination/contrast differential. This was a nice explanation: :https://old-ib.bioninja.com.au/options/option-a-neurobiology-and/a3-perception-of-stimuli/photoreception.html. Also Gemini sucked at making the image, I asked it if I can put a .ico or .svg and it said no and that it had to make it itself. ???
 
 *   **Gemini’s Solution:** Hand-coded a complex **3D Shaded Vector Drawable** for the app icon and engineered a high-density (45-column) **Matrix "Code Rainfall"** background using an infinite animation loop in Jetpack Compose.
 
 **Hour 8: Security & Guardrails**
-*   **The Challenge:** Bypassing Android 13 notification blocks and protecting user privacy.
+*   **The Challenge:** ~Bypassing Android 13 notification blocks and protecting user privacy.~
 
 *    **ChilliZ:**: This is what I was talking about, there are so many security checks to pass but not only that, even if your app is not going to use those permissions, there will always be some fundamental qualifying layer of bullshit to overcome to then work without dysfunction. What ever happened to App open, access shizuku, easy accep, minimise shizuku, "yay I have control over my own phone that still has a shit tonne of inbuilt software that works exactly how some trojan might, the whole Meta intra-app architecture is a security risk just waiting to happen. So on a so forth, blah blah, social commentary.
 
-*   **Gemini’s Solution:** Integrated `POST_NOTIFICATIONS` logic and proactively updated the `.gitignore` to shield sensitive phone-specific debug data before the project’s public release.
+*   **Gemini’s Solution:** ~Integrated `POST_NOTIFICATIONS` logic and proactively updated the `.gitignore` to shield sensitive phone-specific debug data before the project’s public release.~
 
 **Hour 9: Final Triage & GitHub Deployment**
-*   **The Challenge:** Resolving an "Invalid APK" error and a Version Control mishap during the final upload.
+*   **The Challenge:** ~Resolving an "Invalid APK" error and a Version Control mishap during the final upload.~
 
-*   **ChilliZ:**: For future reference we will call the error "Home before Home (to search)". There was no way to do it, and changing the actual function of the original button as part of android requires so much more messiness. If it wasnt inconvenient I would have rooted already, but it
-1)I havent done it since highschool, and 2) lots of banking apps and high security apps use the detect dev settings or 'read if root' and they just lose interactivity- it stoppss loading. Anyway I got to the debug level, I didnt want to register to sign the app. Fundamentally it does what it should, connects to shizkuku, gets higher order permisions, interacts with navigation bar button perfectky fine. Its just the FUCKING HOME BEFORE HOME. It was so close. If anyone haas any thoughts about how to solve or they did it themselves, let me know. I dont think I willa ctively develop this app(let) anymore. I'm pretty sure I pushed the repo here for novelty and a place to organise all the little niche ideas I had Claude or Google build. IT DEFINITELY ISNT 100% FUNCTIONAL. Maybe only 75% of what I wanted to do so yeah. Stay safe everyone bye!
+*   **ChilliZ:**: For future reference we will call the error/bug "Home before Home (to search)". There was no way to do it, and changing the actual function of the original button as part of android requires so much more messiness. If it wasnt inconvenient I would have rooted already, but it
+1)I havent done it since highschool, and 2) lots of banking apps and high security apps use the detect dev settings or 'read if root' and they just lose interactivity- it stopss loading. Anyway I got to the debug level, I didnt want to register to sign the app. Fundamentally it does what it should, connects to shizkuku, gets higher order permisions, interacts with navigation bar button perfectky fine. Its just the FUCKING HOME BEFORE HOME. It was so close. If anyone haas any thoughts about how to solve or they did it themselves, let me know. I dont think I will actively develop this app(let) anymore. I'm pretty sure I pushed the repo here for novelty and a place to organise all the little niche ideas I had Claude or Google build. THE APP DEFINITELY ISNT 100% FUNCTIONAL. Maybe only 75% of what I wanted to do so yeah. Stay safe everyone bye!
 
 *   **Gemini’s Solution:** Rebuilt the final version as a **Signed Debug APK** for instant installation and re-mapped the project’s VCS to Android Studio to ensure a clean, "build-junk free" repository.
 
